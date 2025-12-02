@@ -83,5 +83,5 @@ document
       }
 
       messageEl.textContent = `${name}: ${msg}`;
-    }, 3000); // time in milliseconds
+    }, 3000);
   });
