@@ -1,0 +1,59 @@
+/*
+  Pragmatic JavaScript
+  Chapter 3
+  Programming Assignment
+
+/* GLOBAL PAGE STYLE */
+body {
+  background-color: #000000; 
+  color: #e0e0e0;           
+  font-family: "Orbitron", "Segoe UI", sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+
+/* DASHBOARD LAYOUT */
+.chef-container {
+  background-color: rgba(20, 20, 20, 0.8);  
+  border: 2px solid #0ff;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+
+  /* GLOW EFFECT */
+  box-shadow: 0 0 15px #0ff;
+  transition: 0.3s ease;
+}
+
+/* HOVER EFFECT */
+.chef-container:hover {
+  box-shadow: 0 0 25px #ff00ff; 
+  border-color: #ff00ff;
+}
+
+/* HEADERS */
+h2 {
+  color: #0ff; /* Neon blue */
+  text-shadow: 0 0 10px #0ff;
+  font-size: 26px;
+  margin-top: 0;
+}
+
+/* TEXT LABELS */
+p strong {
+  color: #ff00ff; /* Neon pink */
+  text-shadow: 0 0 8px #ff00ff;
+}
+
+/* ERROR STYLE */
+.error-text {
+  color: #ff0066;
+  font-weight: bold;
+  text-shadow: 0 0 10px #ff0066;
+}
+
+/* OPTIONAL: CENTER EVERYTHING NICELY */
+#app {
+  max-width: 600px;
+  margin: 0 auto;
+}
