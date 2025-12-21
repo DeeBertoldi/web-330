@@ -1,0 +1,65 @@
+/* 
+  Pragmatic JavaScript
+  Chapter 4
+  
+ 
+*/
+
+body {
+  background-color: #000;
+  color: #e0e0e0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.form-container {
+  max-width: 400px;
+  margin: 80px auto;
+  padding: 20px;
+  border: 1px solid #00ffe7;
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(0, 255, 231, 0.4);
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #111;
+  color: #00ffe7;
+  border: 1px solid #00ffe7;
+  border-radius: 4px;
+}
+
+input[type="text"]::placeholder {
+  color: #777;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #00ffe7;
+  color: #000;
+  border: none;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #00ccb8;
+}
+
+#movie-info {
+  margin-top: 20px;
+}
+
+#movie-title {
+  color: #00ffe7;
+  margin-bottom: 10px;
+}
+
+#error-message {
+  margin-top: 15px;
+  color: #ff4d4d;
+  font-weight: bold;
+}
